@@ -1,11 +1,12 @@
-$(Document).ready(function() {
+$(document).ready(function() {
  
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        // nav:true,
+        dots:false,
         autoplay:true,
-        autoplayTimeout: 2000,
+        autoplayTimeout: 5000,
         responsive:{
             0:{
                 items:1

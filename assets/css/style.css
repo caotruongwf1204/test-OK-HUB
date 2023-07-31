@@ -85,9 +85,32 @@
     z-index: -1;
     width: 100%;
     height: 848px;
-    background-color: black;
+}
+.slider img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
+.banner {
+    position: relative;
+}
+.text-left {
+    position: absolute;
+    width: 762px;
+    height: 225px;
+    top: 239px;
+    left: 70px;
+   background-color: black;
+}
+.text-right {
+    position: absolute;
+    width: 448px;
+    height: 112px;
+    bottom: 149px;
+    right: 100px;
+   background-color: rgb(218, 17, 17);
+}
 
 
 
@@ -117,6 +140,10 @@
         padding-left: 10px;
         padding-top: 8px;
     }
+    .logo img {
+        width: 72px;
+        height: 47px;
+    }
 }
 
 /* man hinh mobile */
@@ -132,5 +159,9 @@
     .logo {
         padding-left: 10px;
         padding-top: 8px;
+    }
+    .logo img {
+        width: 72px;
+        height: 47px;
     }
 }
